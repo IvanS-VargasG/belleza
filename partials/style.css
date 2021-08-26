@@ -1,0 +1,185 @@
+body{
+    background: #F6F3ED;
+}
+h2{
+    color: #0a74ff;
+    border-radius: 10px 10px 0 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 100%;
+}
+.regreso{
+    color: #EE7158;
+    border-radius: 10px 10px 0 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.6vw;
+    margin-top: -20%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 100%;
+}
+.regreso:hover{
+    color: #eb5133;
+}
+a{
+    color: #FFF;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+.tablauser{
+    position: relative;
+    margin-top: 10%;
+    display: table;
+    width: 55%;
+    border:1px;
+}
+.tablatext{    
+    position: relative;
+    display: table;
+    width: 55%;
+    border:1px;
+}
+.divimg{
+    background: #07a0c3;
+    width: auto;
+    border-radius: 30px; 
+    display: table-cell;
+}
+.divimg:hover{
+    background-color: #63b0cd;
+}
+.separaimg{
+    display: table-cell;
+    width: 16%;
+}
+.separatexto{
+    display: table-cell;
+    width: 16%;
+}
+.divtexto{
+    width: auto;
+    position: relative;
+    border-radius: 30px;
+    display: table-cell;
+}
+.divtexto h4{
+    color: #292929;
+    font-size: 30px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+.divtexto h4:hover{
+    color: #95ADB6;
+}
+/* .tablausuarios img{
+    margin-left: 25%;
+}
+#tdusertext{
+    background-color: #F6F3ED;
+} */
+form{
+    width: 28%;
+    background: #ddd2bb;
+    padding: 30px;
+    margin: auto;
+    margin-top: -20px;
+    border-radius: 20px;
+}
+form h4{
+    font-size: 2.5vw;
+    color: #292929;
+    margin-top:-2px;
+    margin-bottom: 25px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+}
+form a{
+    color: #FFF;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+select{
+    outline: none;
+    padding: 20px;
+    display: block;
+    width: 75%;
+    border-radius: 30px;
+    border: 1px solid #eee;
+    margin: 20px auto;
+}
+input[type="text"], input[type="password"]{
+    position: relative;
+    outline: none;
+    padding: 20px;
+    display: block;
+    width: 65%;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    margin: 20px auto;
+}
+input[type="submit"]{
+    padding:15px;
+    position: "relative";
+    vertical-align:"center";
+    color: #f6f3ed;
+    background: #004aad;
+    border: none;
+    width: 75%;
+    margin-top: -10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #006af5;
+}
+.logintable {
+    width: 20%;
+    height: 15%;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    box-align: "right";
+    margin: 20px auto;
+}
+.circuloLogin {
+    width: 100%;
+    height: 5%;
+    margin: auto;
+    vertical-align: "center";
+}    
+.candado{
+    width: 20%;
+    height: 10%;
+    margin: auto;
+    vertical-align: "center";
+}
